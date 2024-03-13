@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import Card from './component/Card';
+// import SingerCard from './component/SingerCard';
+// import Result from './component/Result';
+// import Culture from './component/Culture';
+import Cultural from './component/Cultural';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Cultural/>
+    {/* <div className="bg w-full flex gap-[40px] max-md:gap-[10px] flex-wrap justify-center align-center items-center bg-gradient-to-r from-[#161d3c] via-[#08123a] to-[#200C26] ">
+        <Culture/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <SingerCard/>
+        <SingerCard/>
+        <Result/>
+
+      </div> */}
+    </>
   );
 }
 

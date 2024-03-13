@@ -1,0 +1,40 @@
+.divider{
+    padding: 0;
+    margin-left:0;
+    border-radius: 7.856px 7.856px 0px 0px;
+    background: linear-gradient(90deg, rgba(249, 248, 247, 0) 0%, #FBFAFA 9.09%, rgba(249, 248, 247, 0) 100%);
+    background-blend-mode: overlay;
+    opacity: 0.2;
+}
+.card .tleft, .tright{
+    transition: all 0.3s linear;
+}
+.card:hover .tleft{
+    transform: rotate(-6.345deg);
+    margin-right: 90px;
+    height: 320px;
+    top:.8rem;
+}
+
+.card:hover .tright{
+    transform: rotate(6.345deg);
+    margin-left: 90px;
+    height: 320px;
+    top:.8rem;
+
+}
+.card-txt{
+    font-weight: 700;
+}
+.card-txt button{
+    border: 1px solid #ebff01;
+    background-image: linear-gradient(95deg, #b7399f -3.64%, #187dbe 98.92%);
+}
+
+.card-txt button:hover{
+    opacity: .70;
+}
+
+/* .{
+    color: #cccccc72;
+} */

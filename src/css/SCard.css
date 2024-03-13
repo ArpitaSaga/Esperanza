@@ -1,0 +1,11 @@
+.scard{
+    transition: all .5s ease;
+}
+.scard:hover{
+    transform: translateY(-3%);
+}
+
+.mask1 {
+    -webkit-mask-image: linear-gradient(rgb(108, 108, 111) 50%, transparent);
+    mask-image: linear-gradient(rgb(111, 111, 113) 50%, transparent);
+}
